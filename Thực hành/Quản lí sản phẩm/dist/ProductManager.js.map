@@ -1,0 +1,1 @@
+{"version":3,"file":"ProductManager.js","sourceRoot":"","sources":["../ProductManager.ts"],"names":[],"mappings":";;;AAEA,MAAa,cAAc;IAEvB;QADQ,aAAQ,GAAgB,EAAE,CAAA;IACpB,CAAC;IACf,UAAU,CAAC,GAAG,OAAkB;QAC5B,IAAI,CAAC,QAAQ,CAAC,IAAI,CAAC,GAAG,OAAO,CAAC,CAAA;IAClC,CAAC;IAED,cAAc;QACV,OAAO,IAAI,CAAC,QAAQ,CAAC;IACzB,CAAC;CACJ;AAVD,wCAUC"}

@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const RentedRoom_1 = require("./RentedRoom");
+const Person_1 = require("./Person");
+const hotelManager_1 = require("./hotelManager");
+let khach1 = new Person_1.Person('Lê Văn Vĩnh', '002003123556', '12/5/1994');
+let khach2 = new Person_1.Person('Trần Đức Độ', '002003556556', '13/5/1994');
+let khach3 = new Person_1.Person('Lê Hoàng Minh', '002003144456', '18/5/1994');
+let room1 = new RentedRoom_1.Room(202, 'Normal', 500000, 'April 07, 2020 12:00:00', 'April 08, 2020 12:00:00');
+let room2 = new RentedRoom_1.Room(302, 'VIP', 1000000, 'April 9, 2020 12:00:00', 'April 12, 2020 12:00:00');
+let room3 = new RentedRoom_1.Room(402, 'SUPERVIP', 2000000, 'April 9, 2020 12:00:00', 'April 15, 2020 12:00:00');
+let hotelManager = new hotelManager_1.HotelManager();
+hotelManager.Clients.push(khach1, khach2, khach3);
+hotelManager.roomRented.push(room1, room2, room3);
+console.log(hotelManager.roomRented[0].endDate);
+console.log(hotelManager.roomRented[0].startDate);
+console.log(hotelManager.roomRental(202));
+console.log(hotelManager.roomRental(302));
+console.log(hotelManager.roomRental(402));
+//# sourceMappingURL=main.js.map
